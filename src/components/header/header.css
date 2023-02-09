@@ -4,7 +4,6 @@
   grid-template-columns: 1fr auto;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 5px var(--color-gray);
 }
 
 .header--logo{

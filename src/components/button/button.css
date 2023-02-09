@@ -1,0 +1,26 @@
+.button{
+  border-radius: 12px;
+  padding:.8rem 1.5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.button--primary{
+  background-color: var(--color-cyan);
+  color: white;
+}
+
+.button--primary:hover{
+  background-color: var(--color-cyan-hover);
+}
+
+.button--secondary{
+  color: var(--color-gray);
+  color: var(--color-very-dark-blue);
+}
+
+.button--round{
+  border-radius: 100px;
+}

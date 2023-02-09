@@ -25,8 +25,8 @@ function Header() {
         </div>
         
         <div className="wrapper">
-          <Button fullRound={true} variant="secondary">Login</Button>
-          <Button fullRound={true} variant="primary">Sign Up</Button>
+          <Button fullRound variant="secondary">Login</Button>
+          <Button fullRound variant="primary">Sign Up</Button>
         </div>
       </div>
 

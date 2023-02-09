@@ -39,6 +39,7 @@
 .container a{
   margin-bottom: 1rem;
   color: white;
+  z-index: 3;
 }
 
 hr{
@@ -52,6 +53,7 @@ hr{
 @media only screen and (min-width: 710px){
   .header{
     grid-template-columns: 150px 4fr;
+    padding: 1rem 1.5rem;
   }
 
   .header--menu{

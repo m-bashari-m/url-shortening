@@ -9,7 +9,7 @@ function Button({ fullRound, fullWidth, variant, children }) {
         `button 
         ${fullRound ? "button--round" : ""} 
         ${variant === "primary" ? "button--primary" : "button--secondary"}
-        ${fullWidth ? "button--full" : ""}
+        ${fullWidth ? "button--stretch" : ""}
         `
       }
     >

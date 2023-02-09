@@ -1,7 +1,7 @@
 .hero{
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .hero--content{
@@ -14,7 +14,7 @@
   position: relative;
   left: 30px;
   margin-bottom: 1rem;
-  z-index: -1;
+  z-index: 1;
   object-fit: cover;
 }
 
@@ -34,6 +34,7 @@
 @media only screen and (min-width: 710px){
   .hero{
     grid-template-columns: 5fr 6fr;
+    margin-top: 5rem;
   }
 
   .hero img{
@@ -41,7 +42,7 @@
   }
 
   .hero--content{
-    padding: 0 2.5rem;
+    padding: 3rem 2.5rem;
     text-align: left;
   }
 

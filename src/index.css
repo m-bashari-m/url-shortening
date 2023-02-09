@@ -28,3 +28,7 @@ a{
   color: var(--color-grayish-violet);
   margin: 0 10px;
 }
+
+img{
+  max-width: 100%;
+}

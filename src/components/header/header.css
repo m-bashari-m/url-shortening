@@ -51,7 +51,7 @@ hr{
 
 @media only screen and (min-width: 710px){
   .header{
-    grid-template-columns: 1fr 11fr;
+    grid-template-columns: 150px 4fr;
   }
 
   .header--menu{

@@ -1,7 +1,7 @@
 .hero{
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: -10px;
+  margin-top: 10px;
 }
 
 .hero--content{

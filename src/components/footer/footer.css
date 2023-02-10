@@ -1,0 +1,22 @@
+.footer{
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-color: var(--color-very-dark-violet);
+  color: white;
+}
+
+.footer img{
+  color: white;
+}
+
+.wrapper{
+  margin: .5rem;
+}
+
+@media only screen and (min-width: 710px){
+  .footer{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

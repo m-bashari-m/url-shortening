@@ -4,7 +4,7 @@
   background-position: top right;
   background-color: var(--color-dark-violet);
   max-width: 500px;
-  width: 80%;
+  width: 70%;
   padding: 1rem;
   border-radius: 12px;
   position: absolute;
@@ -31,6 +31,22 @@ input{
   color: var(--color-very-dark-blue);
   border-radius: 12px;
   margin-bottom: 1rem;
-  max-width: 100%;
+}
+
+@media only screen and (min-width: 710px){
+  .shortener{
+    background-image: url("../../images/bg-shorten-desktop.svg");
+    max-width: 800px;
+    top: calc(100vh - 45px)
+  }
+
+  form{
+    grid-template-columns: 1fr auto;
+  }
+
+  input{
+    margin-bottom: 5px;
+    padding: 1rem;
+  }
 }
 

@@ -4,4 +4,5 @@ export { default as FullPageContainer} from "./fullPageContainer/FullPageContain
 export { default as Shortener} from "./shortener/Shortener";
 export { default as Hero} from "./hero/Hero";
 export { default as FeaturesLine} from "./featuresLine/FeaturesLine";
+export { default as Boost} from "./boost/Boost";
 

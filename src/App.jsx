@@ -5,6 +5,7 @@ import {
   FullPageContainer,
   FeaturesLine,
   Boost,
+  Footer,
 } from './components'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Shortener />
         <FeaturesLine />
         <Boost />
+        <Footer />
     </div>
   )
 }

@@ -37,6 +37,14 @@ p{
   font-weight: 500;
 }
 
+ul{
+  list-style-type: none;
+}
+
+ul li a{
+  font-weight: 500;
+}
+
 #root{
   height: 100vh;
   overflow-x: hidden;

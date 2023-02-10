@@ -4,6 +4,7 @@ import {
   Hero, 
   FullPageContainer
 } from './components'
+import TimeLine from './components/timeLine/TimeLine'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
       </FullPageContainer>
       <Shortener />
       <FullPageContainer bg="dark">
-
+        <TimeLine />
       </FullPageContainer>
     </div>
   )

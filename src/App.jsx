@@ -1,8 +1,9 @@
-import { useState } from 'react'
-
-import { Header } from './components'
-import Hero from './components/hero/Hero'
-import FullPageContainer from './components/fullPageContainer/FullPageContainer'
+import { 
+  Header,
+  Shortener, 
+  Hero, 
+  FullPageContainer
+} from './components'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Hero />
       </FullPageContainer>
+      <Shortener />
       <FullPageContainer bg="dark">
 
       </FullPageContainer>

@@ -2,7 +2,7 @@ import React from 'react'
 import "../../index.css"
 import "./button.css"
 
-function Button({ fullRound, fullWidth, variant, children }) {
+function Button({ fullRound, fullWidth, variant, type, children }) {
   return (
     <button 
       className={
@@ -12,6 +12,7 @@ function Button({ fullRound, fullWidth, variant, children }) {
         ${fullWidth ? "button--stretch" : ""}
         `
       }
+      type={type ? type : "button"}
     >
       {children}
     </button>

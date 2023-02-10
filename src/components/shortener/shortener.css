@@ -1,0 +1,36 @@
+.shortener{
+  background-image: url("../../images/bg-shorten-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: var(--color-dark-violet);
+  max-width: 500px;
+  width: 80%;
+  padding: 1rem;
+  border-radius: 12px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100vh - 73px);
+  z-index: 10;
+}
+
+form{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+input{
+  outline: unset;
+  border: unset;
+}
+
+input{
+  padding: .8rem;
+  margin: 5px;
+  font-weight: 700;
+  color: var(--color-very-dark-blue);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
+

@@ -1,0 +1,21 @@
+.features-line-heading{
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  max-width: 450px;
+  margin: 1rem auto 5rem auto;
+}
+
+.features-line-heading h2{
+  color: var(--color-very-dark-violet);
+}
+
+.features-line-heading p{
+  color: var(--color-very-dark-blue);
+}
+
+@media only screen and (min-width: 710px){
+  .features-line-heading{
+    margin-top: 5rem;
+  }
+}

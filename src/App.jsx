@@ -3,22 +3,17 @@ import {
   Shortener, 
   Hero, 
   FullPageContainer,
-  TimeLine
+  FeaturesLine,
 } from './components'
-import TimeLine from './components/timeLine/TimeLine'
 
 function App() {
 
   return (
     <div className="app">
-      <FullPageContainer>
         <Header />
         <Hero />
-      </FullPageContainer>
-      <Shortener />
-      <FullPageContainer bg="dark">
-        <TimeLine />
-      </FullPageContainer>
+        <Shortener />
+        <FeaturesLine />
     </div>
   )
 }

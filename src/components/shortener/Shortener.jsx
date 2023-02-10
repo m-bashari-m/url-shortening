@@ -11,6 +11,7 @@ function Shortener() {
 
   return (
     <div className='shortener'>
+      <div className="shortener--top"></div>
       <form onSubmit={handleSubmit}>
         <input 
           type="text"
@@ -20,6 +21,7 @@ function Shortener() {
         />
         <Button variant="primary" type="submit">Shorten It!</Button>
       </form>
+      <div className="shortener--bottom"></div>
     </div>
   )
 }

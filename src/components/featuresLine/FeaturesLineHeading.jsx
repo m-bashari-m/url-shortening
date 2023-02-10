@@ -1,13 +1,13 @@
 import React from 'react'
-import "./timeLineHeading.css"
+import "./featuresLineHeading.css"
 
-function TimeLineHeading() {
+function FeaturesLineHeading() {
   return (
-    <div className='time-line-heading'>
+    <div className='features-line-heading'>
       <h2>Advanced Statistics</h2>
       <p>Track hot your links are performing across the web with our advanced statistics dashboard</p>  
     </div>
   )
 }
 
-export default TimeLineHeading
+export default FeaturesLineHeading

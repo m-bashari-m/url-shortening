@@ -36,3 +36,9 @@ img{
 p{
   font-weight: 500;
 }
+
+#root{
+  height: 100vh;
+  overflow-x: hidden;
+  scale: none;
+}

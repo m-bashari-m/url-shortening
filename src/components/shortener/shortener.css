@@ -1,22 +1,39 @@
 .shortener{
+  position: relative;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.shortener--top{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  z-index: -4;
+}
+
+.shortener--bottom{
+  position: absolute;
+  bottom: 0;
+  z-index: -4;
+  width: 100%;
+  height: 50%;
+  background-color: var(--color-gray);
+}
+
+form{
   background-image: url("../../images/bg-shorten-mobile.svg");
   background-repeat: no-repeat;
   background-position: top right;
   background-color: var(--color-dark-violet);
-  max-width: 500px;
-  width: 70%;
-  padding: 1rem;
-  border-radius: 12px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: calc(100vh - 73px);
-  z-index: 10;
-}
 
-form{
+  width: 70%;
   display: grid;
   grid-template-columns: 1fr;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 1rem;
 }
 
 input{
@@ -35,12 +52,11 @@ input{
 
 @media only screen and (min-width: 710px){
   .shortener{
-    background-image: url("../../images/bg-shorten-desktop.svg");
-    max-width: 800px;
-    top: calc(100vh - 45px)
+    bottom:-45px;
   }
 
   form{
+    background-image: url("../../images/bg-shorten-desktop.svg");
     grid-template-columns: 1fr auto;
   }
 

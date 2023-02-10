@@ -1,6 +1,7 @@
 .full-page-container{
   min-height: 100vh;
   z-index: -4;
+  overflow: hidden;
 }
 
 .light{

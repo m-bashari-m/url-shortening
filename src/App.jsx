@@ -2,7 +2,6 @@ import {
   Header,
   Shortener, 
   Hero, 
-  FullPageContainer,
   FeaturesLine,
   Boost,
   Footer,

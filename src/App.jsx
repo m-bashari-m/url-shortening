@@ -5,6 +5,7 @@ import {
   FullPageContainer,
   TimeLine
 } from './components'
+import TimeLine from './components/timeLine/TimeLine'
 
 function App() {
 

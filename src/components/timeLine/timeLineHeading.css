@@ -1,0 +1,16 @@
+.time-line-heading{
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding-top: 7rem;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.time-line-heading h2{
+  color: var(--color-very-dark-violet);
+}
+
+.time-line-heading p{
+  color: var(--color-very-dark-blue);
+}

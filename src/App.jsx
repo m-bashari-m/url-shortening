@@ -4,6 +4,7 @@ import {
   Hero, 
   FullPageContainer,
   FeaturesLine,
+  Boost,
 } from './components'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Shortener />
         <FeaturesLine />
+        <Boost />
     </div>
   )
 }

@@ -5,6 +5,7 @@
   border: none;
   cursor: pointer;
   margin: 5px 5px;
+  transition: 500ms;
 }
 
 .button--primary{
@@ -17,8 +18,12 @@
 }
 
 .button--secondary{
-  color: var(--color-gray);
   color: var(--color-very-dark-blue);
+}
+
+.button--copied{
+  background-color: var(--color-dark-violet) !important;
+  color: white !important;
 }
 
 .button--round{

@@ -1,0 +1,50 @@
+.result{
+  width: 85%;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: white;
+}
+
+.result p{
+  padding: 1rem;
+  border-bottom: 1px solid var(--color-gray);
+  margin-bottom: 1rem;
+  word-wrap: break-word;
+}
+
+.result a{
+  color: var(--color-cyan);
+  margin: 0 1rem;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+.result button{
+  margin: 1rem auto 0 auto;
+}
+
+@media only screen and (min-width: 710px){
+  .result{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .result--wrapper{
+    display: flex;
+    align-items: center;
+  }
+
+  .result p{
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .result button{
+    margin: 0 12px;
+    width: auto;
+  }
+}

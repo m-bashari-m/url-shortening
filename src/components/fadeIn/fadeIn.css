@@ -1,6 +1,6 @@
 @keyframes fade-in-top {
   from{
-    top: -20px;
+    top: -10px;
     opacity: 0;
   }
   to{

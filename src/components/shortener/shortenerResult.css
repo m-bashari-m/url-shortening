@@ -32,10 +32,6 @@
     flex-wrap: wrap;
   }
 
-  .result:first-child{
-    margin-top: 3rem;
-  }
-
   .result--wrapper{
     display: flex;
     align-items: center;

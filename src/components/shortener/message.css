@@ -1,0 +1,76 @@
+@keyframes fade-in-out {
+  0% {
+    top: -20px;
+    opacity: 0;
+  }
+
+  10%{
+    top: 20px;
+    opacity: 1;
+  }
+
+  90%{
+    top: 20px;
+    opacity: 1;
+  }
+
+  100%{
+    top: -20px;
+    opacity: 0;
+  }
+}
+
+@keyframes change-display {
+  0%{
+    display: block;
+  }
+
+  100%{
+    display: none;
+  }
+}
+
+.message{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 12px;
+  top: 20px;
+  padding: 1rem 1.5rem;
+  width: 90%;
+  max-width: 400px;
+  animation: fade-in-out 4s linear,
+             change-display 3950ms;
+}
+
+.message-fail{
+  background-color: #e6bfbf;
+  z-index: 13;
+}
+
+.message-fail h2{
+  color: #a94442;
+  margin-bottom: 1rem;
+}
+
+.message-fail p{
+  color: #843534;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.message-success{
+  background-color:  #dff0d8;
+  z-index: 12;
+}
+
+.message-success h2{
+  color: #1e3e1e;
+  margin-bottom: 1rem;
+}
+
+.message-success p{
+  color: #3c763d;
+  font-weight: 300;
+  font-size: 1rem;
+}

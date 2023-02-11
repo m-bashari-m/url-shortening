@@ -5,6 +5,7 @@ import "./header.css"
 import "../../index.css"
 import logo from "../../images/logo.svg"
 import toggleButton from "../../images/iconmonstr-menu-lined.svg"
+import FadeIn from '../fadeIn/FadeIn'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -40,16 +41,18 @@ function Header() {
 
     {
       isMenuOpen && 
-      <div className="container">
-        <a href="#">Features</a>
-        <a href="#">Pricing</a>
-        <a href="#">Resources</a>
+      <FadeIn>
+        <div className="container">
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Resources</a>
 
-        <hr />
+          <hr />
 
-        <Button fullRound={true} variant="secondary" fullWidth>Login</Button>
-        <Button fullRound={true} variant="primary" fullWidth>Sign Up</Button>
-      </div>
+          <Button fullRound={true} variant="secondary" fullWidth>Login</Button>
+          <Button fullRound={true} variant="primary" fullWidth>Sign Up</Button>
+        </div>
+      </FadeIn>
     }
 
   </React.Fragment>

@@ -1,4 +1,5 @@
 .features-line{
   background-color: var(--color-gray);
   padding: 1rem;
+  transition: all 500ms;
 }

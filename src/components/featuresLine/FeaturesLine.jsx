@@ -10,7 +10,6 @@ import "./featuresLine.css"
 
 function FeaturesLine() {
   const size = useMedia()
-
   return (
     <div className='features-line'>
       <FeaturesLineHeading />

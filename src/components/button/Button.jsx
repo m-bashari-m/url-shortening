@@ -2,19 +2,24 @@ import React from 'react'
 import "../../index.css"
 import "./button.css"
 
-function Button({ fullRound, fullWidth, variant, type, children }) {
+function Button(props) {
   return (
     <button 
       className={
         `button 
-        ${fullRound ? "button--round" : ""} 
-        ${variant === "primary" ? "button--primary" : "button--secondary"}
-        ${fullWidth ? "button--stretch" : ""}
+        ${props.fullRound ? "button--round" : ""} 
+        ${
+          props.variant === "primary" 
+          ? "button--primary" 
+          : "button--secondary"
+        }
+        ${props.fullWidth ? "button--stretch" : ""}
+        ${props.classes}
         `
       }
-      type={type ? type : "button"}
+      onClick={props.clickHandler}
     >
-      {children}
+      {props.children}
     </button>
   )
 }

@@ -1,0 +1,16 @@
+@keyframes fade-in-top {
+  from{
+    top: -20px;
+    opacity: 0;
+  }
+  to{
+    top:0;
+    opacity: 1;
+  }
+}
+
+.fade-in{
+  position: relative;
+  z-index: 12;
+  animation: fade-in-top 500ms linear;
+}

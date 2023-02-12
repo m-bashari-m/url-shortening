@@ -27,7 +27,7 @@ function Shortener() {
       }
 
       fetch("https://api.rebrandly.com/v1/links", {
-            method: 'POST', // or 'PUT'
+            method: 'POST', 
             headers: headers,
             body: JSON.stringify(data),
           })

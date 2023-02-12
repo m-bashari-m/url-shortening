@@ -1,6 +1,5 @@
-import "axios"
 import {Button} from "../"
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import ShortenerResult from "./ShortenerResult"
 import "./shortener.css"
 import FadeIn from "../fadeIn/FadeIn"
